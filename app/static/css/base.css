@@ -1,0 +1,179 @@
+body{
+    font-family: "Helvetica", sans-serif;
+    margin-bottom:50px;
+}
+
+/*  Header and Footer for all pages */
+
+.nav-bar {
+  position: absolute;
+  background: #da162a;
+  width:99%;
+  color: white;
+  height: 80px;
+  top: 5;
+  left: 5;
+  right: 7;
+  border-radius: 15px;
+  z-Index: 990;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.nav-bar .menubutton {
+  float: right;
+  left: 10;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  top: 100%;
+  transform: translate(1%, 50%);
+}
+.logo img {
+  width: 152px;
+  height: 80px;
+  overflow: hidden;
+  opacity: 1;
+  margin-top: 5px;
+  margin-left: 50px;
+  position : absolute;
+  z-Index: 998;
+  opacity: 1,
+}
+
+.footer {
+  background-color: #da162a;
+  color: white;
+  height: 40px;
+  left: 5;
+  right: 7;
+  width: 99%;
+  bottom: 0;
+  margin-bottom: 5px;
+  z-index: 998;
+  border-radius: 15px;
+  position: fixed;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer p{
+  font-size: 11px;
+  color:white;
+  text-align: center;
+  margin:auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+/* Layout of base_2 'two containers next to each other'*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+.grid-child {
+    padding: 90px;
+    margin-top: 120px;
+}
+
+.grid-child-picture{
+    padding: 90px;
+    margin: auto;
+    margin-left: -30px;
+}
+
+/* Log-In Page*/
+.giphy-embed {
+    width: 450px;
+    height: 450px;
+    align: center;
+    margin-top: -15%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#welcome {
+    text-align: left;
+    font-weight: 200;
+    margin-left:17%;
+    color: #da162a;
+}
+
+#bye {
+    text-align: left;
+    font-weight: 200;
+    margin-left:17%;
+    margin-top:25%;
+    color: #da162a;
+}
+
+#password_forget {
+    text-align: left;
+    font-weight: 200;
+    margin-left:17%;
+}
+
+
+/* Input fields and submit buttons*/
+input {
+  width: 60%;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  margin: 15px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid grey;
+  color: black;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  background: #FDFDFD;
+}
+
+input.submit_login {
+  width: 65%;
+  height: 40px;
+  background: #da162a;
+  justify-content: center;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  display: block;
+  display:inline-block;
+  margin-right:2px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input.submit_register {
+  height: 40px;
+  width: 65%;
+  background: #da162a;
+  justify-content: center;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.class{
+    padding:250px;
+    color: black;
+}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Register {% endblock %}
+
+{% block main %}
+<div class="grid-container">
+    <div class="grid-child">
+        <form action="/create_new_user" method="POST">
+            <h1 id="welcome"> {{text_register}} </h1>
+            <input type="text" name="username" id="username" placeholder="E-Mail Address">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="password" name="password_confirmed" id="password_confirmed" placeholder="Repeat Password">
+            <input type="submit" value= "Create" class = "submit_register">
+        </form>
+    </div>
+
+    <div class="grid-child-picture">
+        <div>
+            <img src="/static/register.jpg" alt="register">
+        </div>
+    </div>
+</div>
+
+{% endblock %}

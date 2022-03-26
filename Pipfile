@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+flask = "*"
+requests = "*"
+Brotli = "*"
+certifi = "*"
+charset-normalizer = "*"
+click = "*"
+dash = "*"
+dash-core-components = "*"
+dash-html-components = "*"
+dash-table = "*"
+Flask-Compress = "*"
+idna = "*"
+itsdangerous = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+numpy = "*"
+pandas = "*"
+plotly = "*"
+python-dateutil = "*"
+pytz = "*"
+six = "*"
+tenacity = "*"
+urllib3 = "*"
+Werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7.5"

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="nav-bar">
+        <a href="/" class="logo">
+          <img src="https://www.iberia.com/wcs/logos/iberia/logo-iberia.svg" alt="Iberia Logo">
+        </a>
+        {% block nav_bar %}{% endblock %}
+      </div>
+    </header>
+
+    <main>
+      <div>
+        {% block main %}{% endblock %}
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>Term Integration Project MCSBT 2021 Nora Tombers</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

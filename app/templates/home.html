@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="grid-container">
+    <div class="grid-child">
+        
+        <form action="/login" method="POST">
+            <h1 id="welcome"> {{message}} </h1>
+            <input type="text" name="username" id="username" placeholder="E-Mail Adress">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <p id="password_forget"> Did you forget your <a href ="re_register">password?</a></p>
+    
+            <div class="grid-container">
+                <input type="submit" value="Sign In" class = "submit_login">
+                </form>
+                <form action="/register">
+                <input type="submit" value="Sign Up" class = "submit_login">
+                </form>
+    </div>
+</div>
+
+    <div class="grid-child">
+        <div>
+            <iframe src="/static/giphy_airplane_start.gif" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+    </div>
+</div>
+{% endblock %}
