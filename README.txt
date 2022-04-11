@@ -11,3 +11,8 @@ To run application
 Application is ready to be deployed on 
 1. Azure App Services (via VS Code)
 2. Heroku (via command line)
+
+A deployed version can be found here: https://iberiatipnora.azurewebsites.net/
+Test user credentials
+Username testuseriberia
+PW test2021
